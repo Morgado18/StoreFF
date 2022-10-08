@@ -1,0 +1,56 @@
+
+@media (max-width:320px){  
+
+    .precosContas{
+        height: 470px;
+    }
+    
+    .Contas{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width:321px) and (max-width:420px) {
+    .precosContas{
+        height: 470px;
+    }
+    
+    .Contas{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width:421px) and (max-width:480px) {
+    .precosContas{
+        height: 470px;
+    }
+    
+    .Contas{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width:481px) and (max-width:580px) {
+    .precosContas{
+        height: 470px;
+    }
+    
+    .Contas{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width:581px) and (max-width:680px) {
+    .precosContas{
+        height: 470px;
+    }
+    
+    .Contas{
+        flex-direction: column;
+        align-items: center;
+    }
+}

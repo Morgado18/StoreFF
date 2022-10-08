@@ -1,0 +1,1414 @@
+
+@media (max-width:320px) {
+           
+
+        .menuLateral img{
+            max-width: 40px;
+         } 
+         .logoTopo{
+            flex: 70%;
+            width: 80%;
+            border: 2px solid red;
+        }
+    
+        header{
+            height: 80px;
+            display: flex;
+            flex-direction: row;    
+        }
+                
+        h1{
+            font-size: 24px; 
+        }
+        h1::after{
+            content: "";
+            width: 100px;
+            height: 30px;
+            left: 112px;
+            position: absolute;
+            animation:  storeff 3s linear alternate infinite;
+        }
+        @keyframes storeff{
+            100%{
+                left: 65%;
+            }
+        }
+                
+        #achou{
+            font-size: 17px;
+        }
+                
+        .conteudoLateralSection p{
+            font-size: 15px;
+           
+        }
+        .botoesFbWpp{
+            margin-top: 7%;
+        }
+        #fb{
+            width: 130px;
+            height: 30px;
+            font-size: 17px;
+            margin: 2%;
+            animation: fb 3s linear alternate infinite;
+        }
+        @keyframes fb{
+            0%{
+                width: 130px;
+                height: 30px;
+                font-size: 20px;
+            }
+            50%{
+                width: 120px;
+                height: 30px;
+                font-size: 19px;
+            }
+            100%{
+                width: 125px;
+                height: 35px;
+                font-size: 19px;
+            }
+        }
+        #wpp{
+            width: 130px;
+            height: 30px;
+            font-size: 17px;
+            margin: 2%;
+            animation: fb 3s linear alternate infinite;
+        }
+        @keyframes wpp{
+            0%{
+                width: 130px;
+                height: 30px;
+                font-size: 20px;
+            }
+            50%{
+                width: 120px;
+                height: 30px;
+                font-size: 19px;
+            }
+            100%{
+                width: 125px;
+                height: 35px;
+                font-size: 19px;
+            }
+        }
+                
+        section{
+            height: 650px;
+            flex-direction: column;
+        }
+        .imgLateralSection{
+            flex: 100%;
+        }
+        .imgLateralSection img {
+            max-width: 100%;
+            height: 18%;
+            margin-top: 8%;
+        }
+        h2{
+            font-size: 22px;
+        }
+        .nossosServices{
+            height: 1050px;
+        }
+        .servicos{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        .cardService{
+            margin: 2%;
+        }
+        footer{
+            height: 300px;
+        }
+        .formularioFooter{
+            width: 80%;
+            height: 220px;
+        }
+        footer p{
+            font-size: 15px;
+        }
+        #espacoEmail {
+            width: 90%;
+            font-size: 13px;
+        }
+        #deixeEmail{
+            font-size: 15px;
+        }
+        #enviarFormulario{
+            width: 50%;
+        }      
+        .local{
+            font-size: 15px;
+        }  
+        #textoDesenvolvimento{
+            font-size: 17px;
+        }
+    
+}
+
+@media (min-width:321px) and (max-width:380px) {
+   
+
+    .menuLateral img{
+        max-width: 40px;
+
+     } 
+
+     .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 24px; 
+    }
+    h1::after{
+        content: "";
+        width: 130px;
+        height: 30px;
+        left: 112px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 65%;
+        }
+    }
+            
+    #achou{
+        font-size: 17px;
+    }
+            
+    .conteudoLateralSection p{
+        font-size: 15px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 650px;
+        flex-direction: column;
+    }
+    .imgLateralSection{
+        flex: 100%;
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 18%;
+        margin-top: 8%;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .nossosServices{
+        height: 1050px;
+    }
+    .servicos{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 220px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 13px;
+    }
+    #deixeEmail{
+        font-size: 15px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 15px;
+    }  
+    
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width:381px) and (max-width:420px) {
+    
+    .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 26px; 
+    }
+    h1::after{
+        content: "";
+        width: 120px;
+        height: 30px;
+        left: 142px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 65%;
+        }
+    }
+            
+    #achou{
+        font-size: 19px;
+    }
+            
+    .conteudoLateralSection p{
+        font-size: 17px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 650px;
+        flex-direction: column;
+    }
+    .imgLateralSection{
+        flex: 100%;
+        text-align: center;
+       
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 18%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .nossosServices{
+        height: 1080px;
+    }
+    .servicos{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 230px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 15px;
+    }
+    #deixeEmail{
+        font-size: 16px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 17px;
+    }  
+    
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+
+} 
+
+@media (min-width:421px) and (max-width:480px) {
+   
+    .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 28px; 
+    }
+    h1::after{
+        content: "";
+        width: 120px;
+        height: 30px;
+        left: 142px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 64%;
+        }
+    }
+            
+    #achou{
+        font-size: 21px;
+    }
+            
+    .conteudoLateralSection p{
+        font-size: 19px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 690px;
+        flex-direction: column;
+    }
+    .imgLateralSection{
+        flex: 100%;
+        text-align: center;
+       
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 18%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .nossosServices{
+        height: 1080px;
+    }
+    .servicos{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 230px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 15px;
+    }
+    #deixeEmail{
+        font-size: 16px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 19px;
+    }  
+    
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+}
+
+@media (min-width:481px) and (max-width:580px) {
+  
+    
+    .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 31px; 
+    }
+    h1::after{
+        content: "";
+        width: 160px;
+        height: 30px;
+        left: 166px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 64%;
+        }
+    }
+            
+    #achou{
+        font-size: 21px;
+    }
+            
+    .conteudoLateralSection p{
+        font-size: 19px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 690px;
+        flex-direction: column;
+    }
+    .imgLateralSection{
+        flex: 100%;
+        text-align: center;
+       
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 18%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .nossosServices{
+        height: 1080px;
+    }
+    .servicos{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 205px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 15px;
+    }
+    #deixeEmail{
+        font-size: 16px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 19px;
+    }  
+   
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+}
+
+@media (min-width:581px) and (max-width:680px) {
+    
+   
+    
+    .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 31px; 
+    }
+    h1::after{
+        content: "";
+        width: 160px;
+        height: 30px;
+        left: 226px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 64%;
+        }
+    }
+            
+    #achou{
+        font-size: 24px;
+    }
+            
+    .conteudoLateralSection p{
+        font-size: 21px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 710px;
+        flex-direction: column;
+    }
+    .imgLateralSection{
+        flex: 100%;
+        text-align: center;
+       
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 18%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .nossosServices{
+        height: 1100px;
+    }
+    .servicos{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 205px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 15px;
+    }
+    #deixeEmail{
+        font-size: 16px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 19px;
+    }  
+   
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width:681px) and (max-width:780px) {
+    
+   
+    .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 35px; 
+    }
+    h1::after{
+        content: "";
+        width: 160px;
+        height: 34px;
+        left: 266px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 60%;
+        }
+    }
+            
+    #achou{
+        font-size: 24px;
+    }
+            
+    .conteudoLateralSection p{
+        font-size: 21px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 720px;
+        flex-direction: column;
+    }
+    .imgLateralSection{
+        flex: 100%;
+        text-align: center;
+       
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 18%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .nossosServices{
+        height: 1150px;
+    }
+    .servicos{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 205px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 15px;
+    }
+    #deixeEmail{
+        font-size: 16px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 19px;
+    }  
+    
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+
+
+}
+
+@media (min-width:781px) and (max-width:880px) {  
+    
+    
+    .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 30px; 
+    }
+    h1::after{
+        content: "";
+        width: 160px;
+        height: 34px;
+        left: 166px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 66%;
+        }
+    }
+            
+    #achou{
+        font-size: 19px;
+    }
+    .conteudoLateralSection{
+        flex: 50%;
+    }      
+    .conteudoLateralSection p{
+        font-size: 17px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 350px;
+        flex-direction: row;
+    }
+    .imgLateralSection{
+        flex: 30%;
+        text-align: center;
+       
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .nossosServices{
+        height: 670px;
+    }
+    .servicos{
+        flex-direction: row;
+       justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 205px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 15px;
+    }
+    #deixeEmail{
+        font-size: 16px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 19px;
+    }  
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:980px) {
+    .menuLateral img{
+            display: block;
+    } 
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 60%;
+        margin-top: 8%;
+    }
+       
+    header ul{
+    position: fixed;
+    top: 35px;
+    left: -300%;
+    background: #003840;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size:26px;
+    transition: all 0.3s ease;
+    z-index: 1;
+    }
+    .linksTopo ul.open{
+        left: 0;
+    
+    }
+    
+    header ul li{
+        width: 100%;
+        margin: 5px;
+    }
+    
+    header ul li a{
+        font-size: 23px;
+    }
+    
+    
+.linksTopo #active,
+.linksTopo a:hover{
+        background: none;
+        color: #f88f06;
+    }
+    
+}
+
+@media (min-width:881px) and (max-width:980px) {
+     
+    .logoTopo{
+        flex: 70%;
+        width: 80%;
+        border: 2px solid red;
+    }
+
+    header{
+        height: 80px;
+        display: flex;
+        flex-direction: row;    
+    }
+            
+    h1{
+        font-size: 30px; 
+    }
+    h1::after{
+        content: "";
+        width: 160px;
+        height: 34px;
+        left: 196px;
+        position: absolute;
+        animation:  storeff 3s linear alternate infinite;
+    }
+    @keyframes storeff{
+        100%{
+            left: 63%;
+        }
+    }
+            
+    #achou{
+        font-size: 19px;
+    }
+    .conteudoLateralSection{
+        flex: 50%;
+    }      
+    .conteudoLateralSection p{
+        font-size: 17px;
+       
+    }
+    .botoesFbWpp{
+        margin-top: 7%;
+    }
+    #fb{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes fb{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+    #wpp{
+        width: 130px;
+        height: 30px;
+        font-size: 17px;
+        margin: 2%;
+        animation: fb 3s linear alternate infinite;
+    }
+    @keyframes wpp{
+        0%{
+            width: 130px;
+            height: 30px;
+            font-size: 20px;
+        }
+        50%{
+            width: 120px;
+            height: 30px;
+            font-size: 19px;
+        }
+        100%{
+            width: 125px;
+            height: 35px;
+            font-size: 19px;
+        }
+    }
+            
+    section{
+        height: 350px;
+        flex-direction: row;
+    }
+    .imgLateralSection{
+        flex: 30%;
+        text-align: center;
+       
+    }
+    .imgLateralSection img {
+        max-width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .nossosServices{
+        height: 670px;
+    }
+    .servicos{
+        flex-direction: row;
+       justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .cardService{
+        margin: 2%;
+    }
+    footer{
+        height: 300px;
+    }
+    .formularioFooter{
+        width: 80%;
+        height: 205px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+    #espacoEmail {
+        width: 90%;
+        font-size: 15px;
+    }
+    #deixeEmail{
+        font-size: 16px;
+    }
+    #enviarFormulario{
+        width: 50%;
+    }      
+    .local{
+        font-size: 19px;
+    }  
+
+    #textoDesenvolvimento{
+        font-size: 17px;
+    }
+}
