@@ -1,0 +1,27 @@
+
+.sobre{
+    height: 950px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #003840;
+    text-align: center;
+}
+
+#psobre{
+    color: white; 
+    font-size: 35px; 
+    font-weight: bold;
+}
+
+.sobre p{
+    color:  cadetblue; 
+    font-size: 19px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.sobre img{
+    max-width: 90px;
+}
