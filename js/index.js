@@ -3,7 +3,7 @@ let headder = document.getElementById("headder");
 let conteudoheadder = ` 
 <header>
     <div class="logoTopo">
-        <!--   <img src="css/imagens/LOGOff.png" >-->
+         <img src="css/imagens/logoff.png" >
     </div>
   <div class="menuLateral">
     <img onclick="menuL()" src="css/imagens/menuL.PNG">
@@ -52,7 +52,7 @@ foooter.innerHTML=conteudofooter;
                 }else{
                         ul.classList.add('open');
                 }
-        }
+ }
 
 let desenvolvimento = document.getElementById("desenvolvimento");
 let conteudoDesenvolvimento = `<div class="desenvolvimento">
