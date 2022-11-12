@@ -6,11 +6,11 @@
             align-items: center;
         }
         .precosRecargas{
-            height: 1450px;
+            height: 1600px;
         }
         .cardRecargas{
             margin: 2%;
-        }     
+        }      
 }
 
 @media (min-width:321px) and (max-width:420px) {
