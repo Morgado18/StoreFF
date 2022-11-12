@@ -1,6 +1,9 @@
 
 @media (max-width:320px) {
            
+    body{
+        overflow-x: hidden;
+    }
 
         .menuLateral img{
             max-width: 40px;
@@ -16,7 +19,9 @@
         header{
             height: 40px;
             display: flex;
-            flex-direction: row;    
+            flex-direction: row;
+            border-radius: 0px;  
+            margin-top: -1rem;  
         }
                 
         h1{
@@ -48,54 +53,22 @@
             margin-top: 7%;
         }
         #fb{
-            width: 130px;
+            width: 120px;
             height: 30px;
-            font-size: 17px;
+            font-size: 15px;
             margin: 2%;
+            margin-right: 1rem;
             animation: fb 3s linear alternate infinite;
         }
-        @keyframes fb{
-            0%{
-                width: 130px;
-                height: 30px;
-                font-size: 20px;
-            }
-            50%{
-                width: 120px;
-                height: 30px;
-                font-size: 19px;
-            }
-            100%{
-                width: 125px;
-                height: 35px;
-                font-size: 19px;
-            }
-        }
+       
         #wpp{
-            width: 130px;
+            width: 120px;
             height: 30px;
-            font-size: 17px;
-            margin: 2%;
+            font-size: 15px;
+            margin-right: 2%;
             animation: fb 3s linear alternate infinite;
         }
-        @keyframes wpp{
-            0%{
-                width: 130px;
-                height: 30px;
-                font-size: 20px;
-            }
-            50%{
-                width: 120px;
-                height: 30px;
-                font-size: 19px;
-            }
-            100%{
-                width: 125px;
-                height: 35px;
-                font-size: 19px;
-            }
-        }
-                
+       
         section{
             height: 650px;
             flex-direction: column;
@@ -112,7 +85,7 @@
             font-size: 22px;
         }
         .nossosServices{
-            height: 1050px;
+            height: 1150px;
         }
         .servicos{
             flex-direction: column;
@@ -123,8 +96,10 @@
         .cardService{
             margin: 2%;
         }
-        footer{
+        footer{ 
             height: 300px;
+            border-radius: 0px;
+            margin-bottom: -1rem;
         }
         .formularioFooter{
             width: 80%;
@@ -205,23 +180,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes fb{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+   
     #wpp{
         width: 130px;
         height: 30px;
@@ -229,23 +188,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes wpp{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+    
             
     section{
         height: 650px;
@@ -351,23 +294,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes fb{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+    
     #wpp{
         width: 130px;
         height: 30px;
@@ -375,23 +302,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes wpp{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+  
             
     section{
         height: 650px;
@@ -649,23 +560,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes fb{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+  
     #wpp{
         width: 130px;
         height: 30px;
@@ -673,23 +568,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes wpp{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+   
             
     section{
         height: 690px;
@@ -799,23 +678,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes fb{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+  
     #wpp{
         width: 130px;
         height: 30px;
@@ -823,23 +686,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes wpp{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+   
             
     section{
         height: 710px;
@@ -949,46 +796,13 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes fb{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+   
     #wpp{
         width: 130px;
         height: 30px;
         font-size: 17px;
         margin: 2%;
         animation: fb 3s linear alternate infinite;
-    }
-    @keyframes wpp{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
     }
             
     section{
@@ -1102,23 +916,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes fb{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+   
     #wpp{
         width: 130px;
         height: 30px;
@@ -1126,23 +924,7 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes wpp{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+   
             
     section{
         height: 350px;
@@ -1298,46 +1080,13 @@
         margin: 2%;
         animation: fb 3s linear alternate infinite;
     }
-    @keyframes fb{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
-    }
+
     #wpp{
         width: 130px;
         height: 30px;
         font-size: 17px;
         margin: 2%;
         animation: fb 3s linear alternate infinite;
-    }
-    @keyframes wpp{
-        0%{
-            width: 130px;
-            height: 30px;
-            font-size: 20px;
-        }
-        50%{
-            width: 120px;
-            height: 30px;
-            font-size: 19px;
-        }
-        100%{
-            width: 125px;
-            height: 35px;
-            font-size: 19px;
-        }
     }
             
     section{
