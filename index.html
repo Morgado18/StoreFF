@@ -5,22 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/responsividades/Rindex.css">
+    <script src="https://kit.fontawesome.com/d59cb6dce0.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d59cb6dce0.js" crossorigin="anonymous"></script> <link rel="stylesheet" href="css/responsividades/Rindex.css">
     <title> StoreFF </title>
 </head>
 <body>
 
-    <p id="headder"></p>
+    <header>
+        <div class="logoTopo">
+             <img src="css/imagens/logoff.png" >
+        </div>
+      <div class="menuLateral">
+        <img onclick="menuL()" src="css/imagens/menuL.PNG">
+        <div class="linksTopo">
+           <ul>
+            <li><a id="active" href="index.html"> Início </a></li>&nbsp;
+            <li><a href="entretenimento.html"> Entretenimento </a></li>
+            <li><a href="sobre.html"> Sobre  </a></li>&nbsp; &nbsp;
+          </ul>
+        </div>
+     </div>
+    </header>
 
     <section>
         <div class="conteudoLateralSection">
             <h1> StoreFF </h1>
             <p id="achou">Você achou a melhor loja digital de Free Fire em Angola !!</p>
             <p>Se liga nos nossos bônus e desfrute das nossas luvas gamer á prova de suor, fibra de vidro non-scratch touch screen gaming de qualidade !!</p>
-         <div class="botoesFbWpp">
-            
-            <a target="_blank" href="https://m.facebook.com/mulekesSonhador/?ref=group_browse&paipv=0&eav=AfarjfRqxoL_vHjfgfT-FXzl0SxTuTiOB19wkIEKSi__lJBTdrfN5bwb-n9S_moACs8&refid=12"><button id="fb" > Facebook </button></a> &nbsp;&nbsp;&nbsp;
-            <a target="_blank" href="#"><button id="wpp" > Whatsapp </button></a>
+         
+            <div class="botoesFbWpp">       
+            <a target="_blank" href="https://m.facebook.com/mulekesSonhador/?ref=group_browse&paipv=0&eav=AfarjfRqxoL_vHjfgfT-FXzl0SxTuTiOB19wkIEKSi__lJBTdrfN5bwb-n9S_moACs8&refid=12"><button id="fb" ><i class="fa-brands fa-facebook"></i> Facebook </button></a> &nbsp;&nbsp;&nbsp;
+            <a target="_blank" href="#"><button id="wpp" ><i class="fa-brands fa-whatsapp"></i> Whatsapp </button></a>
          </div>
         </div>
 
@@ -42,16 +57,19 @@
             <div class="cardService ftsMaior">
                 <img src="css/imagens/luvas.png">
                 <p id="tituloCardService"> Luvas Gamer </p>
-                <p>Compre já suas luvas gamer para ter uma bom jogo escorregadio.</p>
+                <p>Compre já suas luvas gamer para ter uma boa sensibilidade no jogo.</p>
                 <a href="luvas.html"><button> Ver </button></a>
             </div>
     </div>    
     <div class="servicos">
-            <div class="cardService">
+            <div style=" display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;" class="cardService">
                 <img src="css/imagens/ff.PNG">
                 <p id="tituloCardService"> Contas </p>
                 <p>StoreFF comercializa contas no servidor BR e SSA.</p>
-                <a href="contas.html"><button> Ver </button></a>
+                <a href="contas.html"><button style="width: 28vh;"> Ver </button></a>
             </div>
 
             <div class="cardService ftsMaior">
@@ -76,8 +94,18 @@
         <p> Sem anúncios recente. </p>
     </div>
 
-    <p id="foooter"></p>
-   
+    <footer>
+        <div class="formularioFooter">
+        
+            <p id="deixeEmail"> Deixe seu email para estar ligado nas novidades dos novos serviços !!</p>
+            <p id="avisoFormulario"></p>
+            <input id="espacoEmail" type="email" placeholder="Clique aqui para inserir seu Email" required>
+            <br>
+            <input onclick="EnviarFormulario()" id="enviarFormulario" type="submit" value="Enviar">
+        </div>
+        <p> © 2022 </p>
+        </footer>
+
     <script src="js/index.js"></script>
     
 </body>
